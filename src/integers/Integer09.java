@@ -1,4 +1,4 @@
-package integer_;
+package integers;
 import java.util.Scanner;
 public class Integer09 {
     public static void main(String[] args) {

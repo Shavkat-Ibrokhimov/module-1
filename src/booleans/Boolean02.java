@@ -1,14 +1,14 @@
-package boolean_;
+package booleans;
 import java.util.Scanner;
-public class Boolean01 {
+public class Boolean02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("A = ");
         int A = scanner.nextInt();
-        if (A > 0){
-            System.out.println("A soni musbat");
+        if (A % 2 != 0 ){
+            System.out.println("toq son");
         }else{
-            System.out.println("A soni musbat emas");
+            System.out.println("toq son emas");
         }
     }
 }
